@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://dtw3c7ff1lo11"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_pv5ld"]
+[ext_resource type="Texture2D" uid="uid://duab46vhiarkc" path="res://Assets/green-queen.png" id="2_c7qif"]
+
+[resource]
+script = ExtResource("1_pv5ld")
+texture = ExtResource("2_c7qif")
+fen_char = "Q"
+col = 0
+row = 0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://dcac1cepwvwq0"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_npj2p"]
+[ext_resource type="Texture2D" uid="uid://bmck224cbuqw4" path="res://Assets/green-rook.png" id="2_gpcjn"]
+
+[resource]
+script = ExtResource("1_npj2p")
+texture = ExtResource("2_gpcjn")
+fen_char = "R"
+col = 0
+row = 0

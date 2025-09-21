@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://b8ig3phh5ev3r"]
+
+[ext_resource type="Script" uid="uid://bi47p6jd3sx5y" path="res://scripts/promotion_menu.gd" id="1_1aid7"]
+[ext_resource type="Texture2D" uid="uid://dll0blqc5vrvq" path="res://Assets/green-bishop.png" id="2_osqu4"]
+[ext_resource type="Texture2D" uid="uid://duab46vhiarkc" path="res://Assets/green-queen.png" id="3_7vjbh"]
+[ext_resource type="Texture2D" uid="uid://bmck224cbuqw4" path="res://Assets/green-rook.png" id="4_xqqlx"]
+[ext_resource type="Texture2D" uid="uid://w8u60w301btu" path="res://Assets/green-knight.png" id="5_5tr73"]
+
+[node name="Promotion Menu" type="ColorRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = -992.0
+offset_bottom = -608.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.933333, 0.862745, 0.592157, 1)
+script = ExtResource("1_1aid7")
+
+[node name="bishop" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_right = 80.0
+offset_bottom = 40.0
+texture = ExtResource("2_osqu4")
+
+[node name="Queen" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("3_7vjbh")
+
+[node name="Rook" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 80.0
+offset_right = 120.0
+offset_bottom = 40.0
+texture = ExtResource("4_xqqlx")
+
+[node name="Knight" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 120.0
+offset_right = 160.0
+offset_bottom = 40.0
+texture = ExtResource("5_5tr73")
+
+[connection signal="ready" from="." to="." method="_on_ready"]
+[connection signal="gui_input" from="bishop" to="." method="_on_bishop_gui_input"]
+[connection signal="gui_input" from="Queen" to="." method="_on_queen_gui_input"]
+[connection signal="gui_input" from="Rook" to="." method="_on_rook_gui_input"]
+[connection signal="gui_input" from="Knight" to="." method="_on_knight_gui_input"]

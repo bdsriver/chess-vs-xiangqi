@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://d2p1dxejotgji"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_gdctw"]
+[ext_resource type="Texture2D" uid="uid://dndh21qwko1ad" path="res://Assets/red-elephant.png" id="2_vhpfe"]
+
+[resource]
+script = ExtResource("1_gdctw")
+texture = ExtResource("2_vhpfe")
+fen_char = "e"
+col = 0
+row = 0

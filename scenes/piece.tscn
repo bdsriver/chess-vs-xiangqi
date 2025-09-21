@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8xm36owxjhee"]
+
+[ext_resource type="Script" uid="uid://cx8k5w2mdh2y1" path="res://scripts/piece.gd" id="1_3dn4n"]
+
+[node name="Piece" type="TextureRect"]
+script = ExtResource("1_3dn4n")

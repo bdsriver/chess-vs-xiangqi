@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://capnmqxn0sro8"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_1ud8s"]
+[ext_resource type="Texture2D" uid="uid://bt8ytas4l4run" path="res://Assets/red-cannon.png" id="2_377de"]
+
+[resource]
+script = ExtResource("1_1ud8s")
+texture = ExtResource("2_377de")
+fen_char = "c"
+col = 0
+row = 0

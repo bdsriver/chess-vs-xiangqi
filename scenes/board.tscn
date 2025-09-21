@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://bpw6oxcti6e7u"]
+
+[ext_resource type="Script" uid="uid://bievebi8gii54" path="res://scripts/chess.gd" id="1_3nafm"]
+[ext_resource type="Texture2D" uid="uid://bv2t12m0h3t7u" path="res://Assets/chess-xiangqi-board.png" id="2_m8mye"]
+[ext_resource type="Script" uid="uid://dn6orpc4mrlw7" path="res://scripts/check.gd" id="3_aya00"]
+[ext_resource type="PackedScene" uid="uid://b8ig3phh5ev3r" path="res://scenes/promotion_menu.tscn" id="4_yxryt"]
+
+[node name="Board" type="Node2D"]
+script = ExtResource("1_3nafm")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+anchor_mode = 0
+zoom = Vector2(0.7, 0.7)
+
+[node name="Chess-xiangqi-board" type="Sprite2D" parent="."]
+z_index = -1
+scale = Vector2(25, 25)
+texture = ExtResource("2_m8mye")
+centered = false
+
+[node name="Pieces" type="Node2D" parent="."]
+
+[node name="moves" type="Node2D" parent="."]
+
+[node name="Check" type="Node2D" parent="."]
+script = ExtResource("3_aya00")
+
+[node name="Promotion Menu" parent="." instance=ExtResource("4_yxryt")]
+visible = false
+offset_left = 140.0
+offset_top = 200.0
+offset_right = 300.0
+offset_bottom = 240.0
+scale = Vector2(4, 4)
+
+[connection signal="ready" from="." to="." method="_on_ready"]
+[connection signal="ready" from="Chess-xiangqi-board" to="Chess-xiangqi-board" method="_on_ready"]

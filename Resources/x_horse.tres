@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://6c710r4v8nol"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_bmt16"]
+[ext_resource type="Texture2D" uid="uid://dmhoam5uakbjj" path="res://Assets/red-horse.png" id="2_aac5i"]
+
+[resource]
+script = ExtResource("1_bmt16")
+texture = ExtResource("2_aac5i")
+fen_char = "h"
+col = 0
+row = 0
