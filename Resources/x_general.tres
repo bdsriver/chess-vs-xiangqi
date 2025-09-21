@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://cvv56a8yfmr21"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_c15pj"]
+[ext_resource type="Texture2D" uid="uid://cxu5m73lwnlt3" path="res://Assets/red-king.png" id="2_17xf7"]
+
+[resource]
+script = ExtResource("1_c15pj")
+texture = ExtResource("2_17xf7")
+fen_char = "g"
+col = 0
+row = 0

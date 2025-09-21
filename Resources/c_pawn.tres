@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://e8ecvc002hig"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_4ldgu"]
+[ext_resource type="Texture2D" uid="uid://dlklrfxogxd8k" path="res://Assets/green-pawn.png" id="2_b1lft"]
+
+[resource]
+script = ExtResource("1_4ldgu")
+texture = ExtResource("2_b1lft")
+fen_char = "P"
+col = 0
+row = 0

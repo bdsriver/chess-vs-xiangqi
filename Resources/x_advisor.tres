@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://dmff37sbxt0wi"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_gqij1"]
+[ext_resource type="Texture2D" uid="uid://cerknkbevntpu" path="res://Assets/red-advisor.png" id="2_q6rwn"]
+
+[resource]
+script = ExtResource("1_gqij1")
+texture = ExtResource("2_q6rwn")
+fen_char = "a"
+col = 0
+row = 0

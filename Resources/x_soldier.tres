@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://djbjxfrdyqlxa"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_f040m"]
+[ext_resource type="Texture2D" uid="uid://cj6abe24xxi1k" path="res://Assets/red-pawn.png" id="2_lxkcw"]
+
+[resource]
+script = ExtResource("1_f040m")
+texture = ExtResource("2_lxkcw")
+fen_char = "s"
+col = 0
+row = 0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://sxyop81qpafw"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_t7mxv"]
+[ext_resource type="Texture2D" uid="uid://d2dolpmq00og5" path="res://Assets/green-king.png" id="2_npyi3"]
+
+[resource]
+script = ExtResource("1_t7mxv")
+texture = ExtResource("2_npyi3")
+fen_char = "K"
+col = 0
+row = 0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="piece_func" load_steps=3 format=3 uid="uid://bbkdq5hije722"]
+
+[ext_resource type="Script" uid="uid://bv73hvjft48ew" path="res://scripts/piece_func.gd" id="1_fjt8p"]
+[ext_resource type="Texture2D" uid="uid://dll0blqc5vrvq" path="res://Assets/green-bishop.png" id="2_efohw"]
+
+[resource]
+script = ExtResource("1_fjt8p")
+texture = ExtResource("2_efohw")
+fen_char = "B"
+col = 0
+row = 0
